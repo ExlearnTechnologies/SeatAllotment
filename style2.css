@@ -1,0 +1,64 @@
+
+body{
+
+margin:0;
+padding:70px;
+background: url(secondimg.jpg);
+width: 80%;
+    height: 410px;
+background-size:cover;
+
+    
+   
+
+    
+
+font family:times new roman;
+background-repeat:no-repeat;
+
+}
+
+
+
+
+
+.table{
+position:absolute;
+top:25%;
+left:30%;
+transform:translate(-50%,-50%);
+width:700px;
+height:148px;
+box-sizing:border-box;
+background:#f8f8ff;
+margin:55px;
+
+
+
+
+opacity=0;
+padding:0px;
+
+
+
+}
+
+.table td
+{
+margin:7px;
+
+box-shadow:1px 2px 5px;
+
+border-radius:9px;
+
+
+
+padding:30px;
+
+color:black;
+width:220px;
+font-weight:bold;
+
+}
+
+

@@ -1,0 +1,136 @@
+<!Doctype html>
+<html>
+<style>
+
+.modal{
+position:absolute;
+top:5%;
+left:1%;
+ width:80%;
+}
+
+
+.btn-group button {
+    background-color: #555555; /*  background */
+    border: 3px solid gray; /* Green border */
+    color: white; /* White text */
+    padding: 29px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 35%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+	border-radius: 6px;
+
+   
+ height:90px;
+    margin: 8px 0;
+ 
+ 
+    box-sizing: border-box;
+	
+	
+
+
+ 
+
+
+
+
+  transition: all 0.5s;
+
+ 
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color:white;
+	  color: black;
+}
+.buttonx span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+
+.buttonx span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+
+
+.buttonx:hover span
+  padding-right: 25px;
+}
+
+
+.buttonx:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+body{
+
+margin:0;
+padding:10px;
+background: url(studentimg.jpg);
+background-size:cover;
+font family:times new roman;
+
+
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+}
+
+</style>
+<body>
+
+
+<div  class="modal">
+<div class="btn-group">
+<a   href="studententry.html">  <button class="buttonx"><span>STUDENT DETAILS</span></button></a>
+  <a href="departmententry.html"><button class="buttonx"><span>DEPARTMENT DETAILS</span></button></a>
+<a href="facultyentry.html">  <button class="buttonx"><span>FACULTY DETAILS</span></button></a>
+  
+  <a href="classentry.html"><button class="buttonx"><span>CLASS ROOM DETAILS</span></button></a>
+  <a href="examentry.html"><button class="buttonx"><span>EXAM DETAILS</span></button></a>
+</div>
+</div>
+
+</body>
+</html>

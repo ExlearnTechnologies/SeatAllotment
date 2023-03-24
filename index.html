@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.modal{
+position:absolute;
+top:28%;
+left:33%;
+width:80%;
+}
+.buttonx {
+        background-color: #555555; /*  background */
+    border: 3px black /* Green border */
+    color: white; /* White text */
+    padding: 29px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 35%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+	border-radius: 9px;
+
+   
+ height:90px;
+    margin: 11px 0;
+ 
+ 
+    box-sizing: border-box;
+}
+
+.buttonx {background-color: transparent;} /* Green */
+.buttonx:hover {background-color: black;
+color: white;}
+
+.info {background-color: blue;
+color:white;} /* Blue */
+.info:hover {background: black;
+color:white;}
+
+body{
+
+margin:0;
+padding:10px;
+background: url(page1.png);
+background-size:cover;
+font family:times new roman;
+
+
+
+
+
+
+
+ height:90px;
+    margin: 8px 0;
+ 
+ 
+    box-sizing: border-box;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color:white;
+	  color: black;
+}
+.buttonx span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonx span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+
+.buttonx:hover span
+  padding-right: 25px;
+}
+
+.buttonx:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+}
+
+</style>
+</head>
+<body>
+<div  class="modal">
+
+
+<a href="studentpage.html"><button class="buttonx"><span>STUDENT</button></a>
+<a href="login.html"><button class="buttonx"><span>ADMIN</button></a>
+
+</div>
+</body>
+</html>

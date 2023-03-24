@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>login page</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="loginbox">
+	
+	
+	<form>
+		<p>USER NAME</p>
+		<input type="text" size=25 name="userid" placeholder="">
+		<p>PASSWORD</p>
+		<input type="password" size=25 name="pwd" placeholder="">
+		<input type="submit" onclick="check(this.form)" value="LOGIN">
+</form>
+	</div>
+
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "admin" && form.pwd.value == "admin")
+{
+window.open('page2.html')
+}
+else
+{
+alert("incorrect Password or Username")
+}
+}
+</script>
+
+</body>
+</html>

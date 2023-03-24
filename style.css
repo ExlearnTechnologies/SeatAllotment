@@ -1,0 +1,91 @@
+
+body{
+
+margin:0;
+padding:10px;
+background: url(loginimg.jpg);
+background-size:cover;
+font family:times new roman;
+
+
+}
+
+.loginbox{
+position:absolute;
+top:67%;
+left:78%;
+transform:translate(-50%,-50%);
+width:280px;
+height:250px;
+box-sizing:border-box;
+background:transparent;
+padding:20px;
+   
+
+}
+
+.user
+{3.
+width=100px;
+height:100px;
+border-radius:50%;
+overflow:hidden;
+position:absolute;
+top:calc(-100px/2);
+left:calc(50%- 50px);
+}
+
+
+
+.loginbox p
+{
+margin:0;
+
+padding:20;
+font-weight:bold;
+color:black;
+   
+}
+
+.loginbox input
+{
+width:80%;
+    border: 3px solid #888;
+
+margin-bottom:35px;
+
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+ {
+	border:none;
+	border-bottom:1px solid black;
+	background:transparent;
+	outline:none;
+	height:30px;
+	color:black;
+	font-size:14px;
+}
+::placeholder
+{
+	color:black;
+}
+
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+width:95px;
+position:absolute;
+top:80%;
+left:22%;
+
+
+	height:40px;
+	color:white;
+	font-size:15px;
+	background-color:black;
+	cursor:pointer;
+	border-radius:20px;
+}
